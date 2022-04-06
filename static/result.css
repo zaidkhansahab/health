@@ -1,0 +1,9 @@
+.container{
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 7vh;
+    margin-top: 20%;
+
+}

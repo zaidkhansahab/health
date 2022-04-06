@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5)), url("/static/img/towfiqu-barbhuiya-msQB97gUxY0-unsplash.jpg");
+    background-size: cover;
+    
+}
+.navigation{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 1pc;
+    background-color: rgb(50, 51, 53);
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 1.5pc;
+    margin-left: 1pc;
+}
+.navigation a{
+    color: rgb(253, 249, 249);
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav li a:hover{
+    color: rgb(10, 10, 10);
+}
+.pa{
+    position: relative;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 2pc;
+    margin: 2pc 10pc 2pc
+}
+.pa input{
+    font-size: 1.5pc;
+    margin-left: 1PC;
+    margin-bottom: 1pc;
+    border-color: rgb(209, 202, 202);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color: aliceblue;
+    
+}
+.pa label{
+    color: rgb(209, 202, 202);
+    margin-top: 2pc;
+   
+}
+#submit{
+    padding: 0.3pc;
+    font-size: 1.5pc;
+}
