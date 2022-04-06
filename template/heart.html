@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='nav.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: linear-gradient(rgba(0,0,0,0.4) ,rgba(0,0,0,0.4)), url(/static/images/download.jpg);
+            background-size: 50%;
+        }
+    </style>
+    <div class="navigation">
+        
+       <div class="nav">
+           <ul>
+            <li><a href="about"> About </a></li>
+            <li><a href="cancer"> Cancer</a></li>
+            <li><h1><a href="."> ZAS</a></h1></li>
+            <li><a href="heart"> Heart</a></li> 
+            <li><a href="kidney"> Kidney</a></li>                  
+            <li><a href="Diabaties"> Diabaties</a></li>            
+
+           </ul>
+       </div>
+    </div>
+    <div class="pa">
+        <form action="/result" method="POST">
+          <label for="age">Age : </label>
+          <input type="text" id="age" name="age">
+          <br>
+      
+          <label for="sex">Sex(1:Male,0:Female) : </label>
+          <input type="text" id="sex" name="sex">
+          <br>
+      
+          <label for="chest pain type">Chest pain type : </label>
+          <input type="text" id="chest pain type" name="chest pain type">
+          <br>
+      
+          <label for="trestbps">Trestbps : </label>
+          <input type="text" id="trestbps" name="trestbps">
+          <br>
+      
+           <label for="serum cholestoral in mg/dl">Serum cholestoral in mg/dl : </label>
+          <input type="text" id="serum cholestoral in mg/dl" name="serum cholestoral in mg/dl">
+          <br>
+      
+          <label for="restecg">Restecg : </label>
+          <input type="text" id="restecg" name="restecg">
+          <br>
+      
+          <label for="thalach">Thalach : </label>
+          <input type="text" id="thalach" name="thalach">
+          <br>
+      
+          <label for="exang">Exang : </label>
+          <input type="text" id="exang" name="exang">
+          <br>
+      
+          <label for="oldpeak">Oldpeak : </label>
+          <input type="text" id="oldpeak" name="oldpeak">
+          <br>
+      
+          <label for="slope">Slope : </label>
+          <input type="text" id="slope" name="slope">
+          <br>
+      
+          <label for="thal">Thal : </label>
+          <input type="text" id="thal" name="thal">
+          <br>
+          <br>
+        
+            <input type="submit" value="Submit"><br><br>
+        </form>
+    </div>
+</body>
+</html>
