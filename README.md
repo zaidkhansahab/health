@@ -1,5 +1,6 @@
-                            Health Detection Web App
-Welcome to the Health Detection Web App repository! This application leverages [technology or framework used Flask, Django, python , CVV files , html , css  etc.] to perform health detection based on [this app focuses on, e.g., enter report data, vital signs, etc.].
+Health Detection Web App
+
+Welcome to the Health Detection Web App repository! This application leverages [technology or framework used Flask, Django, python , CSV files , html , css  etc.] to perform health detection based on [this app focuses on, e.g., enter report data, vital signs, etc.].
 
 Features
 Health Assessment: Utilize advanced algorithms to assess and detect health-related indicators.
